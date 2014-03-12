@@ -1,218 +1,200 @@
-<!doctype html>
-
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=1024" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>time for tmux</title>
-
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
-
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-
-    <link href="pres.css" rel="stylesheet" />
-
-    <link rel="shortcut icon" href="favicon.png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<title>time for tmux</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="shower/themes/bright/styles/screen.css">
 </head>
-<body class="impress-not-supported">
-<div id="impress">
-
-    <div id="tmux" class="step" data-x="-1000" data-y="-1000" data-scale="1">
-        <h1>time for tmux</h1>
-        <h2>and other terminal fun</h2>
-    </div>
-
-    <div id="webster" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-        <h1>tmux is a terminal multiplexer</h1>
-    </div>
-
-    <div id="dude" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-        <img src="http://mrwgifs.com/wp-content/uploads/2013/04/The-Big-Lebowski-WTF-Gif.gif">
-    </div>
-
-    <div id="for-real" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
-        <h1>Um, what?</h1>
-        <h2>Think splitting the screen, like in your text editor.</h2>
-    </div>
-
-    <div id="installing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <h1>Installing</h1>
-        <pre>&lt; brew install tmux</pre>
-        <br><br>
-        <em>Seriously, just use homebrew.</em>
-    </div>
-
-    <div id="usage" class="step" data-x="6700" data-y="-300" data-scale="6">
-        <h1>Usage*</h1>
-        <pre>tmux</pre>
-    </div>
-
-    <div id="rolling" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="2">
-        <img src="http://mrwgifs.com/wp-content/uploads/2013/04/The-Big-Lebowski-Happy-Reaction-Gif.gif">
-        <h1>You are now using tmux</h1>
-    </div>
-
-    <div id="sessions-1" class="step" data-x="6000" data-y="4000" data-scale="2">
-        <h1>Sessions</h1>
-        <h2>You now have your first "Session"</h2>
-        <h3>"Sessions" are like "tabs" in the browser</h3>
-    </div>
-
-    <div id="session-name-1" class="step" data-x="10000" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-        <h1>First, lets give it a name*</h1>
-        <pre>&lt;control + b&gt; + $ </pre>
-    </div>
-
-    <div id="session-name-2" class="step" data-x="8000" data-y="1200" data-rotate-y="90" data-scale="125">
-        <h1>Names will be important when you have a dozen sessions.</h1>
-    </div>
-
-    <div id="spliting" class="step" data-x="11000" data-y="2200" data-rotate-y="45" data-scale="4">
-        <h1>Splitting the pane.</h1>
-        <img src="http://img4.wikia.nocookie.net/__cb20111217043159/thebiglebowski/images/7/7a/The-big-lebowski-reunion-animated-gifs-15.gif">
-    </div>
-
-    <div id="spliting-1" class="step" data-x="15000" data-y="10200" data-rotate-y="120" data-scale="14">
-        <h1>Splitting*</h1>
-        <table>
-            <tr>
-                <td><h2>Horizontally</h2></td>
-                <td>&nbsp;&nbsp;</td>
-                <td><h2>Vertically</h2></td>
-            </tr>
-            <tr>
-                <td><pre>&lt;control + b&gt; + "</pre></td>
-                <td>&nbsp;&nbsp;</td>
-                <td><pre>&lt;control + b&gt; + $</pre></td>
-            </tr>
-        </table>
-    </div>
-
-    <div id="switch-focus" class="step" data-x="15000" data-y="800" data-rotate-y="270" data-scale="1">
-        <h1>Switch focus*</h1>
-        <pre>&lt;control + b&gt; arrows</pre>
-    </div>
-
-    <div id="kill-it" class="step" data-x="5000" data-y="5000" data-rotate-y="12" data-scale="5">
-        <h1>Kill the Pane*</h1>
-        <pre>&lt;control + b&gt; x, y</pre>
-    </div>
-
-    <div id="other-fun" class="step" data-x="10000" data-y="5000" data-rotate-y="90" data-scale="1">
-        <h1>other fun</h1>
-        <table>
-            <tr>
-                <td><em>Next pane</em></td>
-                <td><pre>&lt;control + b&gt; + n</pre></td>
-            </tr>
-            <tr>
-                <td><em>Prev pane</em></td>
-                <td><pre>&lt;control + b&gt; + p</pre></td>
-            </tr>
-            <tr>
-                <td><em>Rotate panes</em></td>
-                <td><pre>&lt;control + b&gt; + &lt;control + o&gt;</pre></td>
-            </tr>
-            <tr>
-                <td><em>Toggle layouts</em></td>
-                <td><pre>&lt;control + b&gt; + &lt;spacebar&gt;</pre></td>
-            </tr>
-        </table>
-    </div>
-
-    <div id="oh-no" class="step" data-x="15000" data-y="25000" data-rotate-y="70" data-scale="9">
-        <h1>Oh No!</h1>
-        <em>Bossman just asked if you could help on your favorite French Canadian client's project.</em>
-        <img src="http://eecoder.com/images/uploads/shawn-new-full.jpg" style="float: right; margin-top: 20px; margin-left: 20px;">
-        <br><br><br>
-        <em>Now you lose all your awesome new panes that help you build your pet project!</em>
-        <br><br><br>
-        <em>BUMMER</em>
-    </div>
-
-    <div id="no-so-fast" class="step" data-x="2000" data-y="0" data-rotate-y="5" data-scale="5">
-        <h1>But wait*</h1>
-        <em>All is not lost, remember sessions?  You can more than one.</em>
-        <br><br>
-        <pre>&lt;control + b&gt; :new</pre>
-    </div>
-
-    <div id="work-it" class="step" data-x="14000" data-y="100000" data-rotate-y="25" data-scale="25">
-        <h1>Now we can</h1>
+<body class="list">
+	<section class="slide cover" id="Cover"><div>
+		<h2>time for tmux</h2>
+		<p>Doug Grubba (@douggrubba) - Visual Chefs</p>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="1"><div>
+		<h2>tmux is a terminal multiplexer</h2>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="2"><div>
+		<h2>Um, what?</h2>
+		<br>
+		<p>Split the screen, like in your text editor.</p>
+		<p>Open multiple tabs like your browser.</p>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="3"><div>
+		<h2>Installing</h2>
+		<br>
+		<pre>
+			< brew install tmux
+		</pre>
+		<p>Install on windows with cygwin.</p>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="4"><div>
+		<h2>Usage*</h2>
+		<br>
+		<pre>
+			< tmux
+		</pre>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="5"><div>
+		<h2>Sessions</h2>
+		<br>
+		<p>
+			You now have your first "session"
+		</p>
+		<p>
+			"sessions" are like "tabs" in the browser
+		</p>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="6"><div>
+		<h2>First, lets give it a name*</h2>
+		<br>
+		<pre>&lt;control + b&gt; + $</pre>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="7"><div>
+		<h2>Names will be important when you have a dozen sessions.</h2>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="8"><div>
+		<h2>Splitting the pane.</h2>
+		<br><br>
+		<table>
+			<tr>
+				<td width="50%"><strong>Horizontally</strong></td>
+				<td width="50%"><strong>Horizontally</strong></td>
+			</tr>
+			<tr>
+				<td width="50%"><pre>&lt;control + b&gt; + "</pre></td>
+				<td width="50%"><pre>&lt;control + b&gt; + $</pre></td>
+			</tr>
+		</table>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="9"><div>
+		<h2>Switch focus*</h2>
+		<br><br>
+		<pre>&lt;control + b&gt; arrows</pre>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="10"><div>
+		<h2>Kill the Pane*</h2>
+		<br><br>
+		<pre>&lt;control + b&gt; x, y</pre>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="11"><div>
+		<h2>Other fun*</h2>
+		<br>
+		<table>
+			<tr>
+				<td width="25%"><strong>Next pane</strong></td>
+				<td width="75%"><pre>&lt;control + b&gt; + n</pre></td>
+			</tr>
+			<tr>
+				<td width="25%"><strong>Prev pane</strong></td>
+				<td width="75%"><pre>&lt;control + b&gt; + p</pre></td>
+			</tr>
+			<tr>
+				<td width="25%"><strong>Rotate panes</strong></td>
+				<td width="75%"><pre>&lt;control + b&gt; + &lt;control + o&gt;</pre></td>
+			</tr>
+			<tr>
+				<td width="25%"><strong>Toggle layouts</strong></td>
+				<td width="75%"><pre>&lt;control + b&gt; + spacebar</pre></td>
+			</tr>
+		</table>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="12"><div>
+		<h2>Oh no!</h2>
+		<br>
+		<p>You are were plugging right along on your main project, but now you were asked to help out on something else.</p>
+		<br>
+		<p>Should you close out everything you are working on?</p>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="13"><div>
+		<h2>No!</h2>
+		<br>
+		<p>All is not lost, remember sessions?</p>
+		<pre>&lt;control + b&gt; + :new</pre>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="14"><div>
+		<h2>No!</h2>
+		<br>
         <ul>
             <li>Name our session</li>
             <li>Make a pane for ssh production</li>
             <li>Make a pane for ssh staging</li>
             <li>Make a pane for git</li>
-            <li>Make a pane for grunt or htop or any long running task</li>
+            <li>Make a pane for gulp or htop or any long running task</li>
         </ul>
-    </div>
-
-    <div id="woohoo" class="step" data-x="4000" data-y="10000" data-rotate-y="25" data-scale="5">
-        <h1>Now we have something!</h1>
-        <img src="http://guysfilmquest.files.wordpress.com/2013/05/biglebowski-dance.gif">
-        <h2>tmux is made for web agency devs</h2>
-    </div>
-
-    <div id="xpath" class="step" data-x="1000" data-y="1000" data-rotate-y="90" data-scale="14">
-        <h1>Changing gears.</h1>
-        <em>Your flawless xpath has fixed the data import emergency.</em>
-        <br><br><br>
-        <em>Now, back to your pet project.</em>
-        <br><br><br>
-        <pre>&lt;control + b&gt; + s</pre>
-    </div>
-
-    <div id="switch" class="step" data-x="5000" data-y="20000" data-rotate-y="45" data-scale="3">
-        <img src="http://media3.giphy.com/media/nnpJvJLyZ8op2/giphy.gif">
-    </div>
-
-    <div id="weaknesses" class="step" data-x="25000" data-y="18000" data-rotate-y="45" data-scale="3">
-        <h1>weaknesses</h1>
-        <ul>
-            <li>learning more key bindings</li>
-            <li>hard to make sessions persistent</li>
-        </ul>
-    </div>
-
-    <div id="strengths" class="step" data-x="15000" data-y="18000" data-rotate-y="90" data-scale="8">
-        <h1>strengths</h1>
-        <ul>
-            <li>be more productive and agile</li>
-            <li>scriptable</li>
-            <li>nice reminder of what you are/were working on</li>
-        </ul>
-    </div>
-
-    <div id="whats-next" class="step" data-x="25000" data-y="28000" data-rotate-y="45" data-scale="28">
-        <h1>what's next?</h1>
-        <ul>
-            <li>scripting startup</li>
-        </ul>
-        <h3>- or -</h3>
-        <ul>
-            <li>get sessions to persist</li>
-        </ul>
-    </div>
-
-    <div id="maxim" class="step" data-x="1" data-y="-10000" data-rotate-y="0" data-scale="1">
-        <center><em>Every day we change gears to finish our tasks on various projects.</em></center>
-        <br><br><br><br><br>
-        <center><em>Stop losing time and momentum, by switching your focus.</em></center>
-    </div>
-
-    <div id="thanks" class="step" data-x="15000" data-y="118000" data-rotate-y="90" data-scale="8">
-        <h1>Thanks! Questions?</h1>
-        <img src="http://stream1.gifsoup.com/view1/1214147/big-lebowski-jesus-o.gif">
-        <h2>Doug Grubba (@douggrubba)</h2>
-        <h3>Visual Chefs</h3>
-    </div>
-
-</div>
-<script src="bower_components/impress.js/js/impress.js"></script>
-<script>impress().init();</script>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="15"><div>
+		<h2>Now we have something</h2>
+		<br>
+		<p>tmux is made for consultants</p>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="16"><div>
+		<h2>Changing gears</h2>
+		<br>
+		<p>Time to return to your first project.</p>
+		<br>
+		<pre>&lt;control + b&gt; + s</pre>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="17"><div>
+		<h2>Pros</h2>
+		<br>
+		<ul>
+			<li>Be more productive</li>
+			<li>Scriptable, really no limit to what you can do</li>
+			<li>Keeps a list of what you are working on lately</li>
+		</ul>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="18"><div>
+		<h2>Cons</h2>
+		<br>
+		<ul>
+			<li>More key bindings</li>
+			<li>Difficult to make sessions persistent</li>
+		</ul>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="19"><div>
+		<h2>What's next?</h2>
+		<br>
+		<ul>
+			<li>Scripting tmux's startup</li>
+			<li>Or get sessions to persist</li>
+		</ul>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="20"><div>
+		<br><br>
+		<p>Every day we change gears to finish our tasks on various projects.</p>
+		<p>Stop losing time and momentum, by switching your focus.</p>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<section class="slide cover" id="21"><div>
+		<h2>Thanks! Questions?</h2>
+		<br><br>
+		<p><strong>Doug Grubba @douggrubba</strong></p>
+		<p><em>Visual Chefs</em></p>
+		<img src="pictures/cover.png" alt="">
+	</div></section>
+	<div class="progress"><div></div></div>
+	<script src="shower/shower.min.js"></script>
 </body>
 </html>
